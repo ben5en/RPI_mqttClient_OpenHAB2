@@ -2,7 +2,7 @@
 Script for temperature reading and WS2812b handling via MQTT in an openHAB2 environment
 
 This is the software running on an RPI 3 Model A+ I am using for a OpenHAB2 Raspberry Pi Touch Display
-![hackaday.io](https://hackaday.io/project/168517/gallery#1f38b176145a69b1f51806dbeac1e5ec)
+![hackaday.io](https://cdn.hackaday.io/images/9138331574329417291.JPG)
 
 Here are the steps I did to get this up an running:
 1. flashed a new raspbian buster on SD
