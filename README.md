@@ -12,15 +12,15 @@ Here are the steps I did to get this up an running:
 5. connected via SSH
 6. changed the standard password https://www.raspberrypi.org/documentation/linux/usage/users.md
 7. run:
-  sudo apt-get update
-  sudo apt-get full upgrade
+    sudo apt-get update
+    sudo apt-get full upgrade
 8. installed remote desktop protocol:
-  sudo apt install xrdp
+    sudo apt install xrdp
 9. made local settings (timezone etc.) via RDP
 10. installed Adafruit blinka like, but with root support (sudo): https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi
 11. installed Adafruit BMP280 lib like: https://learn.adafruit.com/adafruit-bmp280-barometric-pressure-plus-temperature-sensor-breakout/circuitpython-test
 12. installed Adafruit Neopixels like: https://learn.adafruit.com/adafruit-neopixel-uberguide/python-circuitpython
 13. installed paho-mqtt:
-  sudo pip3 install paho-mqtt
+    sudo pip3 install paho-mqtt
 
 14. enabled script to run with autostart (edit rc.local)
