@@ -24,7 +24,8 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 # 
-# target: Raspberry Pi (worked on RPI 3 Modell A+)
+# target: Raspberry Pi (worked on RPI 3 Model A+)
+# This: https://github.com/sumnerboy12/mqtt-gpio-monitor helped me a lot!
 # ----------------------------------------------------------------------
 
 # ----------------------------------------------------------------------
