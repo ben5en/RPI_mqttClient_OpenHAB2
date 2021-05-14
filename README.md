@@ -22,7 +22,8 @@ Here are the steps I did to get this up an running:
 10. installed Adafruit blinka like, but with root support (sudo): https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi
 11. installed Adafruit BMP280 lib like: https://learn.adafruit.com/adafruit-bmp280-barometric-pressure-plus-temperature-sensor-breakout/circuitpython-test
 12. installed Adafruit Neopixels like: https://learn.adafruit.com/adafruit-neopixel-uberguide/python-circuitpython
-13. installed paho-mqtt:
+13. Since this library and the onboard Raspberry Pi audio both use the PWM (when using GPIO18), they cannot be used together. You will need to blacklist the Broadcom audio kernel module by creating a file /etc/modprobe.d/snd-blacklist.conf with "blacklist snd_bcm2835"
+14. installed paho-mqtt:
 
     sudo pip3 install paho-mqtt
 
